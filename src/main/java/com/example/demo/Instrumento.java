@@ -48,9 +48,9 @@ public class Instrumento {
 	public String toString() {
 		return "Instrumento{" +
 			"id=" + id +
-			", firstName='" + nombre + '\'' +
-			", lastName='" + categoria + '\'' +
-			", description='" + descripcion + '\'' +
+			", nombre='" + nombre + '\'' +
+			", categoria='" + categoria + '\'' +
+			", descripcion='" + descripcion + '\'' +
 			'}';
 	}
 

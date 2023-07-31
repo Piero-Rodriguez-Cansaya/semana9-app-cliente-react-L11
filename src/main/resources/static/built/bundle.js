@@ -34115,7 +34115,7 @@ var App = /*#__PURE__*/function (_React$Component) {
       var _this2 = this;
       client({
         method: 'GET',
-        path: '/api/Instrumento'
+        path: '/api/instrumentos'
       }).done(function (response) {
         _this2.setState({
           instrumentos: response.entity._embedded.instrumentos

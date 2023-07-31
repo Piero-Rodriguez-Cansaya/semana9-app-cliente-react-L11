@@ -8,7 +8,7 @@ class App extends React.Component {
 		this.state = {instrumentos: []};
 	}
 	componentDidMount() {
-		client({method: 'GET', path: '/api/instrumento'}).done(response => {
+		client({method: 'GET', path: '/api/instrumentos'}).done(response => {
 			this.setState({instrumentos: response.entity._embedded.instrumentos});
 		});
 	}
