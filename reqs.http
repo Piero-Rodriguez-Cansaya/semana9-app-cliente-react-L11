@@ -1,5 +1,5 @@
 @server = https://texai-crispy-enigma-j4q5xwg7735p95-8080.preview.app.github.dev
-@emp = {{server}}/api/employees
+@emp = {{server}}/api/Instrumentos
 ###
 GET {{emp}}
 ###
